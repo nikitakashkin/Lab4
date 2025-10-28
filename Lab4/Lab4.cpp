@@ -1,20 +1,44 @@
-// Lab4.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+using namespace std;
+void funtion1(int a, int b);
+int funtion2(int a, int b);
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int a, b;
+
+	cout<<"Wprowadz pierwsza zmienna (a)"<< endl;
+	cin >> a;
+	cout << "Wprowadz druga zmienna (b)" << endl;
+	cin >> b;
+
+
+	cout<<"Pierwsza funkcja" <<endl;
+	funtion1(a, b);
+	cout << "Wieksza liczba jest (funkcja 2): " << funtion2(a, b) << endl;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+void funtion1(int a, int b) {
+	if (a > b) {
+		cout << "a wieksza od b\n";
+	}
+	else if (a < b) {
+		cout << "b wieksza od a\n";
+	}
+	else {
+		cout << "a rowne b\n";
+	}
+}
+int funtion2(int a, int b) {
+	if (a > b) {
+		return a;
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+	}else if (b > a) {
+		return b;
+
+	}else {
+		return 0;
+
+	}
+}
+
