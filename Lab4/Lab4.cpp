@@ -1,6 +1,20 @@
 #include <iostream>
 using namespace std;
 
+/*
+int main() {//zadanie 4
+	unsigned int a, b;
+	cout << "Podaj dwie zmienne calkowite dodatnie: " << endl;
+	cin >> a >> b;
+	unsigned int c = a ;
+	for (int i = 1; b > i;i++) {
+		a = a * c;
+	}
+	cout << "Wynik potegowania: " << a << endl;
+
+	return 0;
+}
+*/
 
 /*
 void dodawanie(float a, float b);
