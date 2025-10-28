@@ -1,6 +1,24 @@
 #include <iostream>
 using namespace std;
 
+
+
+/*
+int main() {//zadanie 5
+	unsigned int n;
+	cout << "Wprowadz liczbe naturalna (n): ";
+	cin >> n;
+	unsigned int wynik = 1;
+
+	for (int i = 1; i <= n; i++) {
+		wynik = wynik * i;
+	}
+	cout << "Silnia z liczby " << n << " wynosi: " << wynik << endl;
+
+	return 0;
+}
+*/
+
 /*
 int main() {//zadanie 4
 	unsigned int a, b;
