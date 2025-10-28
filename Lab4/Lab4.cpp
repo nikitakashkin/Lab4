@@ -1,7 +1,88 @@
 #include <iostream>
 using namespace std;
+
+
+/*
+void dodawanie(float a, float b);
+void odejmowanie(float a, float b);
+void mnozenie(float a, float b);
+void dzielenie(float a, float b);
+
+int main() {//zadanie 3
+
+	float a, b;
+	char c;
+	while (true) {
+
+		bool n;
+		cout << "Podaj pierwsza liczbe: " << endl;
+		cin >> a;
+		cout << "Podaj druga liczbe: " << endl;
+		cin >> b;
+		cout << "Wybierz znak operacji (+, -, *, /): " << endl;
+		cin >> c;
+
+		if (c == '+') {
+			dodawanie(a, b);
+		}
+		else if (c == '-') {
+			odejmowanie(a, b);
+		}
+		else if (c == '*') {
+			mnozenie(a, b);
+		}
+		else if (c == '/') {
+			dzielenie(a, b);
+		}
+		cout << "Czy chesz kontynuowac? (1/0)" << endl;
+		cin >> n;
+		if (n == 0) {
+			break;
+		}
+	}
+	return 0;
+}
+void dodawanie(float a, float b) {
+	cout << "Wynik dodawania: " << a + b << endl;
+}
+void odejmowanie(float a, float b) {
+	cout << "Wynik odejmowania: " << a - b << endl;
+}
+void mnozenie(float a, float b) {
+	cout << "Wynik mnozenia: " << a * b << endl;
+}
+void dzielenie(float a, float b) {
+	if (b != 0) {
+		cout << "Wynik dzielenia: " << a / b << endl;
+	}
+	else {
+		cout << "Blad: Dzielenie przez zero!" << endl;
+	}
+}
+*/
+
+/*
+int main()//zadanie 2
+{
+	unsigned int n;
+	cout << "Wprowadz liczbe calkowita dodatnia (n): ";
+	cin >> n;
+
+	for (int i = 1;i<=n/2; i++) {
+		if (n % i == 0) {
+			cout << "Dzielnik liczby " << n << " to: " << i << endl;
+		}
+	}
+
+	return 0;
+}
+*/
+
+
+/*
 void funtion1(int a, int b);
 int funtion2(int a, int b);
+//zadanie 1
 
 int main()
 {
@@ -41,4 +122,5 @@ int funtion2(int a, int b) {
 
 	}
 }
+*/
 
