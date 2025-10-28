@@ -1,36 +1,64 @@
 #include <iostream>
 using namespace std;
 
+/*
+int silna(unsigned int n);
+int main() {//zadanie 6
+	unsigned int n;
+	cout << "Wprowadz liczbe naturalna (n): ";
+	cin >> n;
+	cout << "2 do potegi " << n << " wynosi: " << silna(n) << endl;
 
+	return 0;
+}
+int silna(unsigned int n) {
+	int wynik = 1;
+	for (unsigned int i = 0; i < n; i++) {
+		wynik = wynik * 2;
+	}
+	return wynik;
+}
+*/
 
 /*
+void silna(unsigned int n);
+
 int main() {//zadanie 5
 	unsigned int n;
 	cout << "Wprowadz liczbe naturalna (n): ";
 	cin >> n;
+	silna(n);
+	return 0;
+}
+
+void silna(unsigned int n){
 	unsigned int wynik = 1;
 
 	for (int i = 1; i <= n; i++) {
 		wynik = wynik * i;
 	}
 	cout << "Silnia z liczby " << n << " wynosi: " << wynik << endl;
-
-	return 0;
 }
 */
 
 /*
+void potegowanie(unsigned int a, unsigned int b);
+
 int main() {//zadanie 4
 	unsigned int a, b;
 	cout << "Podaj dwie zmienne calkowite dodatnie: " << endl;
 	cin >> a >> b;
+	potegowanie(a, b);
+
+	return 0;
+}
+
+void potegowanie(unsigned int a, unsigned int b){
 	unsigned int c = a ;
 	for (int i = 1; b > i;i++) {
 		a = a * c;
 	}
 	cout << "Wynik potegowania: " << a << endl;
-
-	return 0;
 }
 */
 
@@ -94,19 +122,24 @@ void dzielenie(float a, float b) {
 */
 
 /*
+void dzielnik(int a, int b); 
+
 int main()//zadanie 2
 {
 	unsigned int n;
 	cout << "Wprowadz liczbe calkowita dodatnia (n): ";
 	cin >> n;
-
-	for (int i = 1;i<=n/2; i++) {
-		if (n % i == 0) {
-			cout << "Dzielnik liczby " << n << " to: " << i << endl;
-		}
-	}
+	dzielnik(n, n/2);
 
 	return 0;
+}
+
+void dzielnik(int a, int b){
+	for (int i = 1;i<=b; i++) {
+		if (a % i == 0) {
+			cout << "Dzielnik liczby " << a << " to: " << i << endl;
+		}
+	}
 }
 */
 
